@@ -1,0 +1,134 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: lightgray;
+    z-index: 999;
+}
+
+ul
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    transition: all 200ms linear;
+}
+
+.perfil01
+{
+    margin-top: 50px;
+    padding-top: 45px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(223, 199, 169);
+}
+
+.perfil02
+{
+    padding-top: 45px;
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+}
+
+.tecno
+{
+    width: 100%;
+    padding-top: 45px;
+    height: 600px;
+    background-color: rgb(255, 0, 0);
+}
+
+.contato
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+}
+.contatoEsquerdo{
+    background-color: red;
+    width: 600px;
+    height: 500px;
+
+}
+
+
+.contatoDireito{
+    background-color: blue;
+    width: 600px;
+    height: 500px;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+.rel
+{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid rgb(139, 18, 18);
+}
+
+img
+{
+    position: absolute;
+    left: -125px;
+    transition: all 200ms linear;
+}
+
+img:hover
+{
+    transform: scale(1.2);
+    transition: all 400ms linear;
+}
