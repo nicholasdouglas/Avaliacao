@@ -47,12 +47,23 @@ a
     transition: all 200ms linear;
 }
 
+.titTec
+{
+    background-color: rgb(255, 0, 0);
+    margin-top: 25px;
+    color: aliceblue;
+}
+
 .tecno
 {
     width: 100%;
-    padding-top: 45px;
-    height: 600px;
+    padding-top: 300px;
+    height: 2000px;
     background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
 }
 
 .contato
@@ -68,22 +79,28 @@ a
     background-color: rgb(255, 255, 255);
     gap: 20px;
 }
-.contatoEsquerdo{
-    background-color: red;
+.contatoEsquerdo
+{
+    background-color: rgb(237, 226, 157);
     width: 600px;
     height: 500px;
 
 }
 
 
-.contatoDireito{
+.contatoDireito
+{
     background-color: rgb(223, 199, 169);
     width: 600px;
     height: 500px;
 
 }
-body{
+
+body
+{
+    justify-content: center;
     overflow-x: hidden;
+    background-color: red;
 }
 
 .per1
@@ -158,7 +175,7 @@ img:hover
     border-radius: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: 2px solid rgb(139, 18, 18);
-    margin-left: 500px;
+    margin-left: 775px;
     margin-top: 75px;
     left: -400px;
 }
@@ -184,7 +201,40 @@ img:hover
     gap: 20px;
     margin-left: 1100px;
     margin-top: -300px;
+    background-color: rgb(168, 150, 126);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    color: white;
-    position: absolute;
+}
+
+
+.tecHtml
+{
+    border: 2px solid rgb(234, 224, 224);
+    width: 400px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.tecCss
+{
+    border: 2px solid rgb(234, 224, 224);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.tecJs
+{
+    border: 2px solid rgb(234, 224, 224);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
 }

@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="script2.js"></script>
 </head>
 <body>
     <header>
@@ -40,21 +41,62 @@
         </div>
         <div class="desc2">
            <h1>Marighella</h1>
-        </div>    
            <p>Algo</p>
+        </div>    
+           
+    </div>
+    <h1 class="titTec">Tecnologias</h1>
+    <div class = "imgTec">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Marighella_foto3_deputado_46-47_apeerj_%28cropped%29.jpg" class="imgHtml">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Marighella_foto3_deputado_46-47_apeerj_%28cropped%29.jpg" class="imgCss">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Marighella_foto3_deputado_46-47_apeerj_%28cropped%29.jpg" class="imgJs">
     </div>
     <div class="tecno" id="tecno">
-        <h1>tecno</h1>
+        <div class="tecHtml">
+            <br>
+            <h1>HTML</h1>
+            <br>
+            <br>
+            <p1>lakslakslakslakslakslakslakslakslask</p1>
+        </div>
+        <div class="tecCss">
+            <br>
+            <h1>Css</h1>
+            <br>
+            <br>
+            <p1>lakslakslakslakslakslakslakslakslask</p1>
+        </div>
+        <div class="tecJs">
+            <br>
+            <h1>Javascript</h1>
+            <br>
+            <br>
+            <p1>lakslakslakslakslakslakslakslakslask</p1>
+        </div>
     </div>
     <div class="contato" id="contato">
-        <div class="contatoEsquerdo">
-
-    
-            <h2>Contato</h2>
-            <p>Aqui você pode me mandar uma mensagem</p>
+        <div>
+            <div class="contatoEsquerdo">    
+                <h2>Contato</h2>
+                <p>Aqui você pode me mandar uma mensagem</p>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea type="text" id="mensagem"></textarea>
+                </div>
+                <button onclick="confMgnEsq()">Conferir Dados</button>
+            </div>
         </div>
+        
         <div class="contatoDireito">
-            <p>a direita</p>
+            <div>
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Nome: <span id="confMgn"></span></p>
+            </div>
+            <button onclick="enviar()">Enviar</button>
         </div>
     </div>
 </body>
